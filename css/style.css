@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: gray;
+}
+
+.cabecalho{
+    background-color: black;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 1;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 425px)  {
+    
+    .menu-geral {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-end; */
+        align-items: center;
+    }
+    
+    .list1{
+        margin: 15px;
+    }
+
+    .menu-filho1>h2 {
+        color: white
+    }
+
+    img {
+       width: 100%;
+       height: auto; 
+    }
+
+    h3{
+        margin-top: 15px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        margin-top: 15px;
+        text-align: center;
+        margin-bottom: 15px; 
+    }
+
+    video{
+        width: 100%;
+    }
+
+    .media-img {
+        width: 60px;
+    }
+
+    .cards-icones {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 426px) {
+    .menu-geral {
+        width: 1280px;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        
+    }
+    
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .list1{
+        display: inline-block;
+        margin: 15px;
+    }
+    
+    .banner {
+        display: flex;
+        justify-content: center;
+        background-color: #a5debb;
+    }
+    
+    .titulo-cards {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    
+    .titulo-filho {
+        width: 1280px;
+        height: 50px; 
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .cards-curiosidades {
+        width: 1280px;
+        margin: 0 auto;
+    }
+    
+    .conteudos-dos-cards {
+        height: 534px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .cards {
+        width: 335px;
+        height: 534px;
+        border-radius: 15px;
+    }
+    
+    img {
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .video-itapevi {
+        display: flex;
+        justify-content: center;
+        margin-top: 140px;
+    
+    }
+    
+    .video-filho {
+        width: 1280px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    
+    .video-youtube {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .video-youtube-filho {
+        width: 1280px;
+        height: 400px;
+        
+    }
+    
+    video {
+        width: 1280px;
+        z-index: 99;
+        height: 400px;
+        border: 10px;
+    }
+    
+    .menu-rodape {
+        background-color: rgba(7, 3, 3, 0.568);
+        color: white;
+    }
+    
+    .rodape {
+        display: flex;
+        justify-content: center;
+        margin-top: 233px;
+    }
+    
+    .rodape-filho {
+        width: 1280px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .cards-icones {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pai-dos-cards-rodape {
+        width: 1280px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
